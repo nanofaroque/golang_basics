@@ -2,8 +2,9 @@
 
 ## Reading Materials
 ### Basic Learning
-1. https://www.golang-book.com/books/intro
+*  https://www.golang-book.com/books/intro
 ### Concurrency in action 
-2. http://divan.github.io/posts/go_concurrency_visualize/
+*  http://divan.github.io/posts/go_concurrency_visualize/
+*  https://codeburst.io/why-goroutines-are-not-lightweight-threads-7c460c1f155f
 ### Performance Caveats 
-3. http://container-solutions.com/surprise-golang-thread-scheduling/
+*  http://container-solutions.com/surprise-golang-thread-scheduling/

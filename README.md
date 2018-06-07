@@ -23,3 +23,6 @@ my-project
 |Readme.txt 
 
 * https://golang.org/doc/code.html
+
+## Golang microservice with Kafka and MongoDB 
+* https://www.melvinvivas.com/developing-microservices-using-kafka-and-mongodb/

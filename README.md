@@ -6,6 +6,8 @@
 ### Concurrency in action 
 *  http://divan.github.io/posts/go_concurrency_visualize/
 *  https://codeburst.io/why-goroutines-are-not-lightweight-threads-7c460c1f155f
+*  https://golangbot.com/channels/
+*  https://golangbot.com/goroutines/
 ### Performance Caveats 
 *  http://container-solutions.com/surprise-golang-thread-scheduling/
 ### Project Structure

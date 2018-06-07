@@ -10,17 +10,7 @@
 *  http://container-solutions.com/surprise-golang-thread-scheduling/
 ### Project Structure
 
-my-project
-|-> api
-|-> api_test
-|-> controllers
-|-> controllers_test
-|-> models
-|-> routes
-|-> server
-|-> vendor
-|main.go
-|Readme.txt 
+![alt text](https://github.com/nanofaroque/golang_basics/blob/master/project_structure.png)
 
 * https://golang.org/doc/code.html
 

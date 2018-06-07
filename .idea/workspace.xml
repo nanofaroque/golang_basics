@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="defer.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="defer.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MyGoBasics/functions/defer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panic-defer.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MyGoBasics/functions/panic-defer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -51,6 +60,7 @@
         <option value="$PROJECT_DIR$/../MyGoBasics/functions/multivalue.go" />
         <option value="$PROJECT_DIR$/../MyGoBasics/functions/variadic-function.go" />
         <option value="$PROJECT_DIR$/../MyGoBasics/functions/defer.go" />
+        <option value="$PROJECT_DIR$/../MyGoBasics/functions/panic-defer.go" />
       </list>
     </option>
   </component>
@@ -120,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build defer.go">
+  <component name="RunManager" selected="Go Build.go build panic-defer.go">
     <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -129,20 +139,20 @@
       <filePath value="$PROJECT_DIR$/../MyGoBasics/functions/defer.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build map_ex1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basics" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../MyGoBasics/data_structures/map_ex1.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build multivalue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basics" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/../MyGoBasics/functions/multivalue.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build panic-defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basics" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../MyGoBasics/functions/panic-defer.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build pink.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -182,33 +192,32 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build pink.go" />
-      <item itemvalue="Go Build.go build map_ex1.go" />
       <item itemvalue="Go Build.go build timers.go" />
       <item itemvalue="Go Build.go build multivalue.go" />
       <item itemvalue="Go Build.go build variadic-function.go" />
       <item itemvalue="Go Build.go build defer.go" />
+      <item itemvalue="Go Build.go build panic-defer.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build panic-defer.go" />
         <item itemvalue="Go Build.go build defer.go" />
         <item itemvalue="Go Build.go build variadic-function.go" />
         <item itemvalue="Go Build.go build multivalue.go" />
         <item itemvalue="Go Build.go build timers.go" />
-        <item itemvalue="Go Build.go build map_ex1.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="1039" y="688" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073636" side_tool="true" weight="0.32890365" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32890365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32890365" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -381,6 +390,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyGoBasics/functions/panic-defer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>

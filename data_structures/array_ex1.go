@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main()  {
-	var x [10]int;
+	var x [10]int
 
-	x[5]=200;
+	x[5]=200
 	fmt.Println(x)
 }

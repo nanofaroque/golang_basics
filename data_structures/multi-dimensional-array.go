@@ -8,7 +8,7 @@ func main() {
 	/**
 	declare and initialize an multi-dimensional array
 	*/
-	var in [][]int = [][] int{
+	var in = [][] int{
 		{1, 2, 3},
 		{4, 5, 6},
 		{7, 8, 9},

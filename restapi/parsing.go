@@ -16,7 +16,7 @@ type Dimensions struct {
 	Height int
 	Width int
 }
-
+//https://www.sohamkamani.com/blog/2017/10/18/parsing-json-in-golang/
 func main() {
 	structureExample()
 	jsonArrayExample()

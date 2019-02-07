@@ -1,10 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
 	region, continent := location("Santa Monica")
 	fmt.Printf("Matt lives in %s, %s", region, continent)
+
+	client := &http.Client{}
+	resp, err := client.Get("http://gobootcamp.com")
+	fmt.Println(err)
+	fmt.Println(resp)
 }
 func location(city string) (string, string) {
 	var region string

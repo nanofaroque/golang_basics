@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 	var result = broken_calc(5, 8)
-	fmt.Print(result)
+	fmt.Println(result)
+
+	var result1 = broken_calc(2, 3)
+	fmt.Println(result1)
 }
 
 func broken_calc(X int, Y int) int {

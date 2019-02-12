@@ -15,7 +15,7 @@ func isPalindrome(x int) bool {
 	for rem/10 != 0 {
 		var t = rem % 10
 		rem = rem / 10
-		fmt.Println("%d,%d",rem,t)
+		fmt.Println("%d, %d",rem,t)
 		new = new*10 + t
 	}
 	new=new*10+rem

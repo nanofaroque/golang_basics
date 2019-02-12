@@ -1,12 +1,12 @@
 package main
 
 import (
+	"../models"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"../models"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-package main
+package helpers
 type Node struct {
 	val   int
 	left  *Node

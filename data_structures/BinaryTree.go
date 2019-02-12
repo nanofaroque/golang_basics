@@ -1,13 +1,11 @@
 package main
 
 import "fmt"
-
 type Node struct {
 	val   int
 	left  *Node
 	right *Node
 }
-
 func main() {
 	root := &Node{val: 6, left: nil, right: nil,}
 

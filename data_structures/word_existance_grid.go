@@ -14,7 +14,7 @@ func main() {
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[0]); j++ {
 			res := helper(i, j, "ABFD", 0, board)
-			if res {
+			if res==true {
 				break
 			}
 		}
@@ -32,5 +32,5 @@ func helper(r int, c int, in string, pos int, board [][]byte) bool {
 		return true
 	}
 	return helper(r+1, c, in, pos+1, board) ||
-		helper(r, c+1, in, pos+1, board)
+		   helper(r, c+1, in, pos+1, board)
 }

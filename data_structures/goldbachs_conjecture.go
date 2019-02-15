@@ -4,10 +4,12 @@ import "fmt"
 
 func main() {
 	n := 20
-	fmt.Print(n)
-
 	primes := generatePrimes(n)
-	fmt.Println(primes)
+	for k := range primes {
+		if primes[n-k]==true{
+			fmt.Print("First: ",k,"Second: ",n-k)
+		}
+	}
 }
 
 func generatePrimes(n int) map[int]bool {

@@ -25,7 +25,9 @@
 
 ### Quick Note
 #### Iterating over map:
-```for k, v := range m { 
+
+   ```
+   for k, v := range m { 
        fmt.Printf("key[%s] value[%s]\n", k, v)
    }
    or
@@ -34,4 +36,7 @@
        fmt.Printf("key[%s] value[%s]\n", k, m[k])
    }```
    
-   
+ #### Declaration of Map
+   ```
+     m := make(map[int]bool)
+   ```

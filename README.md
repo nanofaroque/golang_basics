@@ -22,3 +22,16 @@
 
 ## Golang microservice with Kafka and MongoDB 
 * https://www.melvinvivas.com/developing-microservices-using-kafka-and-mongodb/
+
+### Quick Note
+#### Iterating over map:
+```for k, v := range m { 
+       fmt.Printf("key[%s] value[%s]\n", k, v)
+   }
+   or
+   
+   for k := range m {
+       fmt.Printf("key[%s] value[%s]\n", k, m[k])
+   }```
+   
+   

@@ -34,9 +34,10 @@
    
    for k := range m {
        fmt.Printf("key[%s] value[%s]\n", k, m[k])
-   }```
+   }
+   ```
    
- #### Declaration of Map
+#### Declaration of Map:
    ```
      m := make(map[int]bool)
    ```

@@ -21,5 +21,4 @@ func compareTriplets(a []int32, b []int32) []int32 {
 	triplets[0]= int32(alice)
 	triplets[1]= int32(bob)
 	return triplets
-
 }

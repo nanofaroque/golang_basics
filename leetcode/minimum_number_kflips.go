@@ -1,37 +1,47 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var input []int
+var input1 []int
 
 func main() {
-	input = []int{0, 1, 0}
-	res := minKBitFlips(input, 1)
+	input = []int{1, 1, 0}
+	res := minKBitFlips(input, 2)
 	fmt.Print(res)
+
+	input1 = []int{0, 0, 0, 1, 0, 1, 1, 0}
+	res1 := minKBitFlips(input1, 3)
+	fmt.Print(res1)
 }
 func minKBitFlips(A []int, K int) int {
 	pos := findFirstZeros(A)
+	if pos == len(A) {
+		return 0
+	} // dont need any alteration
 	count := 0
-	if pos == -1 {
-		return count
+
+	for pos < len(A) {
+		if A[pos] == 1 {
+			pos++
+		} else if A[pos] == 0 {
+			if flip(pos, A, K) == -1 {
+				return -1
+			}
+			pos++
+			count++
+		}
 	}
-	if pos+K > len(A) {
+	//fmt.Print("position: ",pos)
+
+	if pos < len(A) {
 		return -1
 	}
-	//fmt.Println(pos)
-	for pos >= 0 {
-		pos = flip(pos, A, K)
-		if pos == -1 {
-			return pos
-		}
-		//fmt.Println(pos)
-		count++
-	}
-	//fmt.Print(pos)
 	return count
 }
 func flip(pos int, A []int, K int) int {
-	var nextPos int
 	if pos+K > len(A) {
 		return -1
 	}
@@ -40,13 +50,10 @@ func flip(pos int, A []int, K int) int {
 			A[i] = 1
 		} else {
 			A[i] = 0
-			nextPos = i
 		}
 	}
-	if nextPos == pos {
-		return findFirstZeros(A)
-	}
-	return nextPos
+	return 0
+
 }
 func findFirstZeros(A []int) int {
 	for i := 0; i < len(A); i++ {

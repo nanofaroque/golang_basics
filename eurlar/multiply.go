@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"time"
 )
 
 func main() {
@@ -16,7 +17,10 @@ func main() {
 		out := findSum(n)
 		fmt.Println(out)
 	}
+	start := time.Now()
 	fmt.Print(findSum(100))
+	elapsed := time.Since(start)
+	fmt.Println("elapsed time: ",elapsed)
 }
 
 func findSum(n int) int {
@@ -26,13 +30,13 @@ func findSum(n int) int {
 		total = total + i;
 		i = i + 3;
 	}
-	j := 5;
-	for j < n {
-		if (j%3 != 0) {
-			total = total + j;
+	i = 5;
+	for i < n {
+		if i%3 != 0 {
+			total = total + i;
 		}
 
-		j = j + 5;
+		i = i + 5;
 	}
 	return total;
 }

@@ -34,8 +34,6 @@ func minKBitFlips(A []int, K int) int {
 			count++
 		}
 	}
-	//fmt.Print("position: ",pos)
-
 	if pos < len(A) {
 		return -1
 	}

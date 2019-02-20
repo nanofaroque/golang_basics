@@ -41,3 +41,25 @@
    ```
      m := make(map[int]bool)
    ```
+   To get the data from map
+   ```cassandraql
+     m[121]
+   ```
+#### Linked List 
+   Creation:
+    
+    list.New() 
+    
+   Accessing element from the list:
+   ```cassandraql
+
+   type Node struct {
+	 row int
+	 col int
+   }
+
+   for e := l.Front(); e != nil; e = e.Next() {
+   		row := e.Value.(*Node).row
+   		col := e.Value.(*Node).col
+   }
+   ``` 

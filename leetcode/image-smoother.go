@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-package leetcode
+package main
 
 import "fmt"
 
@@ -15,7 +14,6 @@ func main() {
 
 func imageSmoother(M [][]int) [][]int {
 	fmt.Print("I am here")
-
 	return nil
 }
 

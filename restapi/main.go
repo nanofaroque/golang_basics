@@ -6,7 +6,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// our main function
+// our interfaces function
 func main() {
 	router := mux.NewRouter()
 	log.Fatal(http.ListenAndServe(":8000", router))

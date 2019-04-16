@@ -33,6 +33,6 @@ func uselog() error {
 
 func main() {
 	setupLogger(logfile, logprefix)
-	DLog.Printf("test from main")
+	DLog.Printf("test from interfaces")
 	uselog()
 }
